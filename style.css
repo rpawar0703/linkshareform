@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+}
+
+.container {
+  background: #f8f9fd;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  position: relative;
+}
+
+.circle {
+  width: 524px;
+  height: 524px;
+  background: #9677ef;
+  border-radius: 50%;
+  z-index: 1;
+  position: absolute;
+}
+
+.form-box {
+  height: 400px;
+  width: 750px;
+  background: white;
+  z-index: 2;
+  border-radius: 5px;
+  position: relative;
+}
+
+.header,
+.footer {
+  padding: 20px;
+  margin: 20px;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding-bottom: 20px;
+}
+
+.heading + p {
+  line-height: 1.2;
+  padding-bottom: 25px;
+}
+
+.input {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  outline: none;
+}
+
+.input:focus {
+  border: 1px solid #e5e5e5;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  background: #9677ef;
+  border: none;
+  padding: 13px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.btn:focus {
+  outline: none;
+}
+
+.footer {
+  width: 675px;
+  height: 120px;
+  background: #f8f9fd;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+.footer-heading {
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.footer p {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.footer p a {
+  text-decoration: none;
+  color: #9677ef;
+}
+
+.input::placeholder {
+  font-size: 1rem;
+  font-family: 'Muli', sans-serif;
+}
+
+.close {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  font-size: 1.5rem;
+  color: #494949;
+}
